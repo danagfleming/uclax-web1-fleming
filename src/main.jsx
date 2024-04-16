@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-import SunAndMoon from "./SunAndMoon/sunandmoon.jsx";
+import Routes from "./Pages/Routes.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
-        <SunAndMoon />
+        <Routes />
     </React.StrictMode>
 );
