@@ -68,7 +68,7 @@ const Essays = () => {
                 navigation while the other works on the primary CTA.
             </SingleEssay>
             <SingleEssay
-                question={`Q4: What is the difference between Backend and Frontend Development`}
+                question={`Q4: What is the difference between a Front-End and Back-End Developer?`}
             >
                 Backend developers are responsible for building all the unseen
                 aspects of a website. This includes website architecture,
