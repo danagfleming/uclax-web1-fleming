@@ -67,6 +67,21 @@ const Essays = () => {
                 simultaneously without overlap - one person can work on
                 navigation while the other works on the primary CTA.
             </SingleEssay>
+            <SingleEssay
+                question={`Q4: What is the difference between Backend and Frontend Development`}
+            >
+                Backend developers are responsible for building all the unseen
+                aspects of a website. This includes website architecture,
+                scripting, and code that communicates between the website’s
+                database and server. Aside from building the website, they also
+                have to maintain and debug the entire backend of the application
+                or system. Common backend development languages are Python and
+                SQL. Frontend developers are responsible for building the part
+                of the website that users interact with. This includes the
+                actual content, such as images or text, the style of the
+                website, and the interactions. Critical front end development
+                languages are HTML, CSS, and Javascript.
+            </SingleEssay>
         </EssaysStyled>
     );
 };
