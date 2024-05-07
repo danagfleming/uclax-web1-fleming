@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import StaffList from "./StaffList/StaffList";
+
 import Inset from "@/Common/PagesLayout/Inset.jsx";
 
 const Staff = () => {
@@ -7,6 +9,7 @@ const Staff = () => {
         <StaffStyled>
             <Inset>
                 <h1>Staff</h1>
+                <StaffList />
             </Inset>
         </StaffStyled>
     );
