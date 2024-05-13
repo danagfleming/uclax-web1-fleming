@@ -82,6 +82,38 @@ const Essays = () => {
                 website, and the interactions. Critical front end development
                 languages are HTML, CSS, and Javascript.
             </SingleEssay>
+            <SingleEssay
+                question={`In React, what are the different ways we can link to resources (e.g. Root Relative vs Document Relative)?`}
+            >
+                Absolute and relative sources are two options for describing the
+                location of a file being used to develop a program. While both
+                methods summon a file, there are some fundamental differences I
+                will describe. Absolute sourcing describes the location of the
+                file in relation to the hard drive. It tends to be lengthy to
+                express, and include information that is highly specific to the
+                developer’s computer. Starting from the hard drive, an absolute
+                source would detail each folder name until the desired file is
+                reached. Relative sourcing instead considers the location of
+                files in relationship to each other. Instead of beginning the
+                description with the hard drive, the current location is
+                assumed, and direction are given that translate to “back out one
+                file”, etc. until Somewhere between these two methods falls root
+                relative sourcing, which assumes the root file as the starting
+                point. This eliminates the need to back out of the current
+                location, and still allows an abbreviated source. Although the
+                brevity is convenient, the main power of writing sources
+                relatively is that they can be modular. Absolute sourcing does
+                not transfer correctly to other computers or the cloud, because
+                the folder names from the hard drive to the called file are not
+                identical to the developers. Relative sourcing is much more
+                modular and does not depend on the user’s personal computer
+                setup and orientation. These terms and similar concepts can also
+                be applied when calling an external resource on a webpage, such
+                as a social media link, or routing within an application. When
+                calling upon an external resource, absolute should always be
+                used, but when routing internally root relative or relative is
+                ideal.
+            </SingleEssay>
         </EssaysStyled>
     );
 };
