@@ -114,6 +114,20 @@ const Essays = () => {
                 used, but when routing internally root relative or relative is
                 ideal.
             </SingleEssay>
+            <SingleEssay
+                question={`What is the difference between jpg, gif, png and svg images?`}
+            >
+            JPG, PNG, and GIF are all raster file types. This means that they are built with pixels, and the image quality is dependent on resolution. Despite these similarities, there are many differences and they have unique preferred applications.
+
+JPG is the best file format for real photos. It utilizes lossy compression, which means that the data for the image is not stored in the file. This makes the files more lightweight, which is ideal for web display of photos. If photos are used in another file type such as PNG, they become extremely heavy because of all the associated data and make the website much less efficient. The recommended size for a JPG photo file is <100kb, which can be reached by adjusting quality and file size.
+
+PNG is ideal for logos and other images with minimal color pallets and simple graphics. It utilizes lossless compression (data kept in tact with image), which typically makes for larger file sizes, but it actually outputs lighter weight imagery when applied correctly and used for the file type described above. PNG is the most commonly used format on the web, and is unique because it has transparency channels which allow for an icon without a background, etc.
+
+GIF is essentially a PNG format that allows for animation. You can save multiple images into one file, and each one is treated as a layer. In order to adjust the animation, you can adjust the delay between each frame, as well as decide how many times the frames will loop.
+
+SGV sets itself apart from the above file types because it is a vector format. This means that instead of being based on pixels, the image is defined by relationship between shapes, and therefore can scale to any size without any compromise in quality. In practical application terms, SGV files are suitable for all the same applications as PNG, with the benefit of being completely scalable, smaller in size, and adjustable using CSS and JavaScript.
+
+            </SingleEssay>
         </EssaysStyled>
     );
 };
