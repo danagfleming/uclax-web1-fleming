@@ -150,6 +150,38 @@ const Essays = () => {
                 scalable, smaller in size, and adjustable using CSS and
                 JavaScript.
             </SingleEssay>
+
+            <SingleEssay
+                question={`Define the following Agile roles: Product Manager, Scrum Master, UX Designer, Developer/Engineer, QA/SDET, and DevOps.`}
+            >
+                Product Manager *Customer Need Focused. Acts as the voice of the
+                customer. Creates user stories, maintains product backlog.
+                Ensures the team understands the needs of the customer, and the
+                business value of their efforts. Scrum Master: *Team Need
+                Focused. Servant leaders focused on delivering the
+                customer-defined value. Holds daily SCRUM meetings, ensures each
+                member commits to a task and is accountable to their commitment.
+                Track progress of sprint. UX Designer: *Technical Design Skill
+                Set. Research and empathize with users to identify needs and
+                pain points. Share findings with the team, ideate solutions,
+                build and test prototypes. Focus on rapid prototyping and
+                iteration to get fast feedback from users. Developer/Engineer:
+                *Technical Developer Skill Set. Code prototypes and software.
+                Focus of sustainable development - good estimations, branching
+                strategies to manage code, automated testing to protect quality,
+                and continuous deployment to get fast feedback from users.
+                QA/SDET -Quality Assurance / Software Development Engineer in
+                Test-: *Technical Quality Skill Set. Help the development team
+                define and implement automated testing strategies. Identifies
+                and fixes bugs and defects. Works with the team to ensure the
+                product meets the customers needs. DevOps: *Cross Departmental
+                Management. Collaboratively manage and communicate development
+                alongside operations. Cross functional knowledge of release
+                engineering -writing and deployment of code-, infrastructure
+                provisioning and systems administration -deploying and
+                maintaining servers, storage, and networking resources required
+                to host applications-.
+            </SingleEssay>
         </EssaysStyled>
     );
 };
