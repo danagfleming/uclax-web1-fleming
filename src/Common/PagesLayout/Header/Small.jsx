@@ -39,7 +39,7 @@ const SmallStyled = styled.div`
         padding: 20px;
         max-width: 330px;
     }
-
+    // NAV background-color from #034444 to #f9f9f9 6/5 22:36
     nav {
         position: fixed;
         left: 0px;
@@ -49,21 +49,21 @@ const SmallStyled = styled.div`
 
         z-index: 100;
 
-        background-color: #034444;
+        background-color: #f9f9f9;
 
+        // TEXT remove border-bottom: solid 1px #999999, change color white to #1c1c1c ? 6/5 22:22
         a {
             display: block;
 
             padding: 10px;
-            border-bottom: solid 1px #999999;
 
-            color: white;
+            color: #1c1c1c;
             text-decoration: none;
-
+            // FOCUS TEXT remove background-color: #002a2a;, add border-bottom: solid 1px #1c1c1c;
             &:hover,
             &:active,
             &:focus {
-                background-color: #002a2a;
+                border-bottom: solid 1px #1c1c1c;
             }
         }
     }

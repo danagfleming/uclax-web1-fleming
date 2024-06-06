@@ -19,13 +19,14 @@ Hamburger.propTypes = {
     toggle: PropTypes.func.isRequired,
 };
 
+// HAMBURGER STYLED color white to black 6/5 22:19 df
 const HamburgerStyled = styled.div`
     position: absolute;
     top: 20px;
     right: 20px;
 
     font-size: 30px;
-    color: white;
+    color: #1c1c1c;
 
     cursor: pointer;
 `;

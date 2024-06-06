@@ -35,7 +35,9 @@ const MediumLargeStyled = styled.div`
             padding: 20px 0px;
         }
     }
-
+    /* NAVLINK TEXT STYLE text-align center to right, font weight bold to medium, font-size 12px to 15px,
+    text-transform uppercase to lowercase, border-bottom removed (solid, 1px, 84d4d4),
+    color #84d4d4 to #1C1C1C, opacity 0.8 to 100 6/5 22:08 */
     nav {
         text-align: center;
         a {
@@ -44,25 +46,23 @@ const MediumLargeStyled = styled.div`
 
             line-height: 30px;
             margin: 0px 0px 20px 5px;
-            border-bottom: solid 3px #84d4d4;
 
             text-align: center;
-            font-size: 12px;
-            opacity: 0.8;
-            color: #84d4d4;
-            font-weight: bold;
+            font-size: 15px;
+            opacity: 100;
+            color: #1c1c1c;
+            font-weight: medium;
             text-decoration: none;
-            text-transform: uppercase;
+            text-transform: lowercase;
 
             &:hover,
             &:active,
             &:focus {
                 opacity: 1;
             }
-
+            // NAVLINK ACTIVE TEXT STYLE border-bottom added, color feature removed 22:16 6/5 df
             &.active {
-                color: white;
-                border-bottom-color: white;
+                border-bottom: solid 1px #1c1c1c;
             }
         }
     }
