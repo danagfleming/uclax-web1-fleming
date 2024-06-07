@@ -36,9 +36,9 @@ const TabContentStyled = styled.div`
         grid-template-columns: 1fr 2fr;
         gap: 1rem;
     }
-
+    // change image max width from 100% to px based number
     img {
-        max-width: 100%;
+        max-width: 400px;
         display: block;
         margin: 0px auto 15px;
     }
