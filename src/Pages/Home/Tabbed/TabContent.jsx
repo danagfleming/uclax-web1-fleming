@@ -26,9 +26,10 @@ TabContent.propTypes = {
     curTab: PropTypes.object.isRequired,
 };
 
+// change tab background color 6/6 20:59
 const TabContentStyled = styled.div`
     padding: 20px;
-    background-color: teal;
+    background-color: #eee4f7;
 
     @media ${breakpoints.isMediumAndUp} {
         display: grid;
@@ -41,15 +42,16 @@ const TabContentStyled = styled.div`
         display: block;
         margin: 0px auto 15px;
     }
-
+    // change font color 6/6 21:00
     h3 {
         font-size: 30px;
-        color: white;
+        color: #000000;
     }
 
+    // change font color 6/6 21:00
     p {
         font-size: 18px;
-        color: #8cc6c6;
+        color: #000000;
         margin-bottom: 20px;
         line-height: 150%;
     }

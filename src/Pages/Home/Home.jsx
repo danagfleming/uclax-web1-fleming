@@ -18,8 +18,11 @@ const Home = () => {
 
 export default Home;
 
+// add background color 6/6 21:07
 const HomeStyled = styled.div`
     h1 {
         display: none;
     }
+
+    background-color: #f9f9f9;
 `;
