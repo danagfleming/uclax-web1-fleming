@@ -6,7 +6,7 @@ import Tabbed from "./Tabbed/Tabbed";
 
 //import podcast banner image, use root routing
 
-import Image from "@/Pages/Home/Slideshow/img/Core-Strength.jpg";
+import Image from "@/Pages/Home/Slideshow/img/Case-Study-Banner.jpg";
 
 /* remove  <Slideshow /> from under Home 6/6 21:51
 Inset Image using title {Image} - Success!!! Display!
@@ -15,7 +15,7 @@ const Home = () => {
     return (
         <HomeStyled>
             <h1>Home</h1>
-            <img src={Image} alt="Core-Strength" />
+            <img src={Image} alt="Case-Study-Banner" />
             <Inset>
                 <Tabbed />
             </Inset>

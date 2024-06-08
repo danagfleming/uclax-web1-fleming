@@ -15,9 +15,11 @@ const StaffList = () => {
 };
 
 export default StaffList;
-
+/* minmax 250 to 400px 6/8 15:27
+gap from 1rem to 2rem 6/8 15:38
+ */
 const StaffListStyled = styled.div`
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 2rem;
 `;

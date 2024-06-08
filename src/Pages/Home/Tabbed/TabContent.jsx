@@ -36,7 +36,8 @@ const TabContentStyled = styled.div`
         grid-template-columns: 1fr 2fr;
         gap: 1rem;
     }
-    // change image max width from 100% to px based number
+    // change image max width from 100% to 400px 6/6 22:29
+    // this feature keeps breaking, when I reset it works. Not sure why.
     img {
         max-width: 400px;
         display: block;

@@ -6,10 +6,10 @@ import Accolades from "./Accolades/Accolades";
 const StaffMember = ({ member }) => {
     const { name, image, yearStarted, accolades } = member;
 
-    return (
-        <StaffMemberStyled>
-            <img src={image} alt={name} />
-            <h3>{name}</h3>
+    /* remove all returned data except image
+
+    (
+        <h3>{name}</h3>
 
             <div className="bottom">
                 <p>
@@ -17,6 +17,14 @@ const StaffMember = ({ member }) => {
                 </p>
                 <Accolades accolades={accolades} />
             </div>
+        )
+
+        6/8 15:19 df
+
+    */
+    return (
+        <StaffMemberStyled>
+            <img src={image} alt={name} />
         </StaffMemberStyled>
     );
 };
@@ -27,12 +35,12 @@ export default StaffMember;
 StaffMember.propTypes = {
     member: PropTypes.object.isRequired,
 };
-
+// change background color 6/8 15:27
 const StaffMemberStyled = styled.div`
-    background-color: #eeeeee;
-
+    background-color: #f9f9f9;
+    // change image size from 100% to 500px 6/8 15:36 . broke it!
     img {
-        width: 100%;
+        width: 500px;
         display: block;
     }
 
