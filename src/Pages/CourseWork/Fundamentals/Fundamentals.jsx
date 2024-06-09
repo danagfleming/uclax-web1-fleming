@@ -20,4 +20,8 @@ const Fundamentals = () => {
 
 export default Fundamentals;
 
-const FundamentalsStyled = styled.div``;
+const FundamentalsStyled = styled.div`
+    h2 {
+        color: #1c1c1c;
+    }
+`;

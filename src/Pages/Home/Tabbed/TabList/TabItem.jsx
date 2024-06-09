@@ -24,8 +24,8 @@ TabItem.propTypes = {
 
 // Change tab colors 6/6 20:58
 const TabItemStyled = styled.div`
-    background-color: #852dc4;
-    color: #eee4f7;
+    background-color: #1c1c1c;
+    color: #ffffff;
     text-align: center;
     cursor: pointer;
     border-radius: 5px 5px 0px 0px;
@@ -37,6 +37,7 @@ const TabItemStyled = styled.div`
 
     &.selected {
         background-color: #eee4f7;
-        color: #852dc4;
+        color: #1c1c1c;
+        font-weight: bold;
     }
 `;

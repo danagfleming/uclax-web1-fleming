@@ -188,4 +188,9 @@ const Essays = () => {
 
 export default Essays;
 
-const EssaysStyled = styled.div``;
+//style update 6/8 17:25
+const EssaysStyled = styled.div`
+    h2 {
+        color: #1c1c1c;
+    }
+`;

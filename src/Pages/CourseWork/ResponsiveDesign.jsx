@@ -33,7 +33,7 @@ const ResponsiveDesignStyled = styled.div`
         line-height: 200px;
         font-size: 50px;
         text-align: center;
-        color: white;
+        color: #ffffff;
         background-color: teal;
         margin: 10px;
     }
@@ -54,5 +54,9 @@ const ResponsiveDesignStyled = styled.div`
         .box {
             background-color: green;
         }
+    }
+    //style update 6/8 17:28
+    h2 {
+        color: #1c1c1c;
     }
 `;

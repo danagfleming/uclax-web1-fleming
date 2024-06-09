@@ -29,4 +29,11 @@ const CourseWorkLayout = () => {
 
 export default CourseWorkLayout;
 
-const CourseWorkLayoutStyled = styled.div``;
+// background color + font color update 6/8 17:13
+const CourseWorkLayoutStyled = styled.div`
+    background-color: #f9f9f9;
+
+    h1 {
+        color: #1c1c1c;
+    }
+`;

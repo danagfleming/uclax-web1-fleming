@@ -115,7 +115,7 @@ table {
 nav.sublinks {
     margin: 30px 0px;
 }
-
+// background-color update 6/8 17:17
 nav.sublinks a {
     display: inline-block;
     margin-right: 5px;
@@ -124,10 +124,13 @@ nav.sublinks a {
     border-radius: 5px;
     padding: 10px 20px;
     color: white;
-    background-color: #027272;
+    background-color: #1c1c1c;
 }
 
+// style updates 6/8 17:23
 nav.sublinks a:hover,
 nav.sublinks a.active {
-    background-color: #014444;
+    background-color: #f9f9f9;
+    color: #1c1c1c;
+    font-weight: bold;
 }

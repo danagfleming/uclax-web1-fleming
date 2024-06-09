@@ -16,9 +16,13 @@ const ReactComponent = ({ title, showDisc = false }) => {
 export default ReactComponent;
 
 const ReactComponentStyled = styled.div`
-    border: solid 3px teal;
+    border: solid 3px #101010;
     padding: 20px;
     margin: 30px 0px;
+
+    h3 {
+        color: #1c1c1c;
+    }
 `;
 
 const DisclaimerStyled = styled.p`
