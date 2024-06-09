@@ -38,6 +38,7 @@ const TabContentStyled = styled.div`
     }
     // change image max width from 100% to 400px 6/6 22:29
     // this feature keeps breaking, when I reset it works. Not sure why.
+    //still breaking, help! 6/8 17:35
     img {
         max-width: 400px;
         display: block;
