@@ -15,7 +15,7 @@ const Home = () => {
     return (
         <HomeStyled>
             <h1>Home</h1>
-            <img src={Image} alt="Case-Study-Banner" />
+            <img className="banner" src={Image} alt="Case-Study-Banner" />
             <Inset>
                 <Tabbed />
             </Inset>
@@ -33,7 +33,8 @@ const HomeStyled = styled.div`
     }
 
     background-color: #f9f9f9;
-    img {
+
+    img.banner {
         max-width: 1800px;
     }
 `;
